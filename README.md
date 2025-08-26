@@ -23,3 +23,42 @@ Ensure you have Python 3.6 or higher installed. It's recommended to use a virtua
 python3 -m venv venv
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 ```
+## 📁 Repository Structure
+
+03-scipy.ipynb: Jupyter Notebook containing various SciPy examples and exercises.
+
+Makefile: Automation script for setting up the environment and running tests.
+
+tests/: Directory containing unit tests for the implemented functions.
+
+## 🚀 Getting Started
+
+Clone the repository to your local machine:
+```
+git clone https://github.com/saranjthilak/data-scipy.git
+cd data-scipy
+```
+
+
+Open the Jupyter Notebook to explore the examples:
+```
+jupyter notebook 03-scipy.ipynb
+```
+
+Run the tests to ensure everything is set up correctly:
+```
+pytest tests/
+```
+## 📘 Learn More
+
+To deepen your understanding of SciPy, consider exploring the following resources:
+
+SciPy Documentation
+
+SciPy Tutorials
+
+SciPy GitHub Repository
+
+## 🤝 Contributing
+
+Contributions are welcome! If you have suggestions, improvements, or new examples, feel free to fork the repository and submit a pull request.
